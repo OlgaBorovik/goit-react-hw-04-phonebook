@@ -34,7 +34,7 @@ const ContactsForm = ({ onSubmitProp }) => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        onSubmitProp({name, number, id})
+        onSubmitProp( {name:name, number:number, id:id})
         reset()
     
   }
